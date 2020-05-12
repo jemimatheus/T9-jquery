@@ -6,6 +6,7 @@
     
 */
 
+
 const frases = [
     "A vida trará coisas boas se tiveres paciência.",
     "Demonstre amor e alegria em todas as oportunidades e verás que a paz nasce dentro de você.",
@@ -22,4 +23,13 @@ const frases = [
     "Não importa o tamanho da montanha, ela não pode tapar o sol.",
     "O bom-senso vai mais longe do que muito conhecimento.",
 ]
+
+
+
+
+$('.biscoito').click(function() {
+   let listaFrases = Math.floor(Math.random() * frases.length)
+  $('#message').text(frases[listaFrases])
+}) 
+
 

@@ -10,3 +10,21 @@ do input deve completar a frase.
 
 
 */
+
+
+alert('Hello word')
+
+function  helloJavaScript() {
+alert('Hello word')
+}helloJavaScript()
+
+
+$(document).ready(function(){
+    alert('Hello word em Jquery')
+});
+
+
+
+$(function() {
+alert('Eu sou Hello word de uma função anonima')
+})
