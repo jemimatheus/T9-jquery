@@ -5,6 +5,12 @@
   - Você pode criar uma função "changeBg" que será responsável pela lógica dessa alteração
   - Extra: Modifiquem o estilo da página para ela ficar com a sua cara!
 */
+<<<<<<< HEAD
+=======
+
+//jquery
+
+>>>>>>> 6fc8c80860abe25a687c71277522637b9815db01
 $(document).ready(function() {
 
   const bodyColor = $('body')
@@ -33,6 +39,7 @@ $('#botao').click(function() {
 
 //ou
 
+<<<<<<< HEAD
 // $('#botao').click(changeBg)
 
 })
@@ -52,3 +59,8 @@ $('#botao').click(function() {
 //   $('*').css('background','white'),
 //   botao = 0;
 // }
+=======
+$('#botao').click(changeBg)
+
+})
+>>>>>>> 6fc8c80860abe25a687c71277522637b9815db01

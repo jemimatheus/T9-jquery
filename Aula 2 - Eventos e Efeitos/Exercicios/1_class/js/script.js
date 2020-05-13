@@ -1,4 +1,5 @@
-/*
+//EXERCICIO 1 😍
+ /*
   1. Mude o estilo do body para que a font-family seja "Arial, sans-serif"
 
   2. Preencha os spans do html utilizando JQuery, adicionando informações suas. 
@@ -15,3 +16,30 @@
   5. Adicionei uma classe errada! Suma com a classe 'wrongClass', utilizando JQuery
 */
 
+$(document).ready(function(){
+    //body pode ser trocado por *
+$('body').css('font-family', 'Arial,sans-serif')
+
+ const nickname = 'Jê'
+ let favoritos = 'Cada um na sua casa'
+const cidade = 'São Paulo'
+let favDoMomento = 'Rei Leão'
+
+$('#nickname').text(nickname)
+$('#favoritos').text([favoritos,favDoMomento])
+$('#cidade').text(cidade)
+
+
+$('h1')
+.addClass('titulo')
+.text('Sobre Mim.')
+
+$('li').addClass('list')
+$('span').addClass('item-list')
+
+//resolução 1
+//$('li').removeClass('wrongClass')
+
+//resolução 2
+$('li').eq(0).removeClass('wrongClass')
+})
